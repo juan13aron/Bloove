@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjectBloove</string>
+    <string name="campañas">Campañas</string>
+    <string name="ver_mas">Ver mas...</string>
+    <string name="hospitales">Hospitales</string>
+    <string name="title_activity_localizacion__view">Map</string>
+    <string name="volver">Volver</string>
+    <string name="title1"> Requisitos</string>
+    <string name="title2"> Localizaciòn</string>
+    <string name="title3"> Incentivos</string>
+    <string name="title4"> Tipos De RH</string>
+    <string name="title5"> Informaciòn</string>
+    <string name="apto"> Saber si soy Apto</string>
+
+</resources>
