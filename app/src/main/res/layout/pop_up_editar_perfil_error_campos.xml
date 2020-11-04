@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="251dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="-7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Error"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="iLos campos no coinciden!"
+            android:textAlignment="inherit"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="#fff"
+                android:textColor="#FF0000"
+                android:textColorHighlight="#FF0000"
+                android:textColorLink="#CC3737"
+
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="#fff"
+                android:text="Aceptar"
+                android:textColor="#FF0000"
+                android:textColorHighlight="#FF0000"
+                android:textColorLink="#CC3737"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
